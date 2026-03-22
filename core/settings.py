@@ -133,3 +133,8 @@ STORAGES = {
         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
     },
 }
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://competence-lab-backend-production.up.railway.app',
+    'https://competence-lab-frontend.vercel.app',
+]
