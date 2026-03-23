@@ -60,6 +60,12 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'core.urls'
+
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173',
+    'http://localhost:5174',
+    'https://competence-lab-frontend.vercel.app',
+]
 CORS_ALLOW_ALL_ORIGINS = True  # Development ke liye
 
 
