@@ -67,6 +67,7 @@ CORS_ALLOWED_ORIGINS = [
     'https://competence-lab-frontend.vercel.app',
 ]
 CORS_ALLOW_ALL_ORIGINS = True  # Development ke liye
+CORS_ALLOW_CREDENTIALS = True
 
 
 
